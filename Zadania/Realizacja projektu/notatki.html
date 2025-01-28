@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="notatki_resources/notatki_style.css">
+    <link rel="stylesheet" href="header_resources/header_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Notatki</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="menu">
+                <input id="menu-chechbox" type="checkbox">
+                <label class='menu-button-label' for="menu-chechbox">
+                    <span class='menu-button'></span>
+                </label>
+                <ul class="menu-ul">
+                    <li><a class="link" href="#"><img src="header_resources/house.png" alt="Dom"><span>&nbsp;Strona główna</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/calendar.png" alt="Kalendarz"><span>&nbsp;Kalendarz wychowu matek</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/cloud.png" alt="Chmura"><span>&nbsp;Pogoda</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/bell.png" alt="Dzwon"><span>&nbsp;Powiadomienia</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/parchment.png" alt="Pergamin"><span>&nbsp;Raporty</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/exit.png" alt="Wyjście"><span>&nbsp;Wyloguj się</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="background"></div>
+
+    <main>
+        <h1 class="title">NOTATKI</h1>
+        <section class="notes">
+            <div class="image-container">
+                <img src="notatki_resources/pszczelarz.png" alt="Pszczelarz">
+            </div>
+            <div class="notes-content">
+                <h2 class="notes-title">Rodzina 2</h2>
+                <div class="notes-title-section">
+                    <div>
+                        <img src="notatki_resources/calendar.png" alt="Kalendarz">
+                        <span>&nbsp;&nbsp;Data</span>
+                    </div>
+                    <div></div>
+                    <div>
+                        <img src="notatki_resources/note.png" alt="Notatka">
+                        <span>&nbsp;&nbsp;Treść</span>
+                    </div>
+                </div>
+
+                <div class="notes-list">
+                    <div class="note">
+                        <span class="date">06.03.2024 9:34</span>
+                        <button class="delete"><img src="notatki_resources/bin.png" alt="Kosz"></button>
+                        <p class="note-text">Rodzina silna, obecny czerw kryty na 6 ramkach. Matka widoczna i w dobrej kondycji. Zapasy miodu i pyłku wystarczające na najbliższe tygodnie.</p>
+                    </div>
+
+                    <div class="note">
+                        <span class="date">13.04.2024 13:23</span>
+                        <button class="delete"><img src="notatki_resources/bin.png" alt="Kosz"></button>
+                        <p class="note-text">Duży ruch przy wylotku, pszczoły noszą nektar. Brak oznak chorób, warrozy nie zaobserwowano. Przybywa miodu, ramki do odwirowania.</p>
+                    </div>
+
+                    <div class="note">
+                        <span class="date">09.07.2024 6:43</span>
+                        <button class="delete"><img src="notatki_resources/bin.png" alt="Kosz"></button>
+                        <p class="note-text">Rodzina silna, obecny czerw kryty na 9 ramkach. Matka widoczna. Zapasy miodu i pyłku wystarczające na najbliższe tygodnie.</p>
+                    </div>
+
+                    <div class="note">
+                        <span class="date">18.08.2024 19:12</span>
+                        <button class="delete"><img src="notatki_resources/bin.png" alt="Kosz"></button>
+                        <p class="note-text">Rodzina bardzo silna, obecny czerw kryty na 15 ramkach. Matka widoczna i w bardzo dobrej kondycji.</p>
+                    </div>
+                </div>
+                <button class="add-note">Dodaj Notatkę</button>
+            </div>
+        </section>
+        <button class="back">Powrót do szczegółów ula</button>
+        <p class="note-info">Notatki zostają usunięte z dniem 1 stycznia każdego roku w celu zachowania transparentności!</p>
+    </main>
+</body>
+
+</html>

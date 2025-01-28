@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="szczegoly_ula_resources/szczegoly_ula_style.css">
+    <link rel="stylesheet" href="header_resources/header_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Szczegóły ula</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="menu">
+                <input id="menu-chechbox" type="checkbox">
+                <label class='menu-button-label' for="menu-chechbox">
+                    <span class='menu-button'></span>
+                </label>
+                <ul class="menu-ul">
+                    <li><a class="link" href="#"><img src="header_resources/house.png" alt="Dom"><span>&nbsp;Strona główna</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/calendar.png" alt="Kalendarz"><span>&nbsp;Kalendarz wychowu matek</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/cloud.png" alt="Chmura"><span>&nbsp;Pogoda</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/bell.png" alt="Dzwon"><span>&nbsp;Powiadomienia</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/parchment.png" alt="Pergamin"><span>&nbsp;Raporty</span></a></li>
+                    <li><a class="link" href="#"><img src="header_resources/exit.png" alt="Wyjście"><span>&nbsp;Wyloguj się</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="background"></div>
+
+    <main>
+        <h1 class="title">SZCZEGÓŁY ULA</h1>
+        <div class="details">
+            <div class="details-start">
+                <h2 class="details-title">Rodzina 2</h2>
+                <img src="szczegoly_ula_resources/pen.png" alt="Edit" class="pen-icon">
+                <h3 class="mother-title">Rasa matki:&nbsp;<span>Słowenka</span></h3>
+            </div>
+
+            <div class="details-content">
+                <div class="detail-info">
+                    <div class="info-box">
+                        <div class="info">
+                            <img src="szczegoly_ula_resources/temperature.png" alt="Temperatura" class="info-icon">
+                            <span class="text">Temperatura roju:</span>
+                        </div>
+                        <span class="value">31.9 °C</span>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info">
+                            <img src="szczegoly_ula_resources/weight.png" alt="Waga" class="info-icon">
+                            <span class="text">Waga:</span>
+                        </div>
+                        <span class="value">67.9 kg</span>
+                    </div>
+                    
+                    <div class="info-box">
+                        <div class="info">
+                            <img src="szczegoly_ula_resources/humidity.png" alt="Wilgotność" class="info-icon">
+                            <span class="text">Wilgotność:</span>
+                        </div>
+                        <span class="value">67.4 %</span>
+                    </div>
+                    
+                    <div class="info-box">
+                        <div class="info">
+                            <img src="szczegoly_ula_resources/movement.png" alt="Ruch" class="info-icon">
+                            <span class="text">Ruch przy wylotku:</span>
+                        </div>
+                        <span class="value">35.6 %</span>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info">
+                            <img src="szczegoly_ula_resources/ok.png" alt="Status ok" class="info-icon status-icon">
+                            <span class="text status">Status: <span class="status-green">Normalny</span></span>
+                        </div>
+                    </div>
+                    <button class="add-note">Zobacz Notatki</button>
+                </div>
+
+                <div class="detail-chart">
+                    <div class="slider-section">
+                        <div class="slides-border-container">
+                            <div class="slides" id="slides-1">
+                                <div class="div1 slides-div" id="slide-1-1">
+                                    <div class="chart_img_div">
+                                        <img class="big" src="szczegoly_ula_resources/chart_temperature.png" alt="Wykres temperatury">
+                                        <img class="medium" src="szczegoly_ula_resources/chart_temperature_medium.png" alt="Wykres temperatury">
+                                        <img class="small" src="szczegoly_ula_resources/chart_temperature_small.png" alt="Wykres temperatury">
+                                    </div>
+                                </div>
+
+                                <div class="div2 slides-div" id="slide-1-2">
+                                    <div class="chart_img_div">
+                                        <img class="big" src="szczegoly_ula_resources/chart_weight.png" alt="Wykres wagi">
+                                        <img class="medium" src="szczegoly_ula_resources/chart_weight_medium.png" alt="Wykres wagi">
+                                        <img class="small" src="szczegoly_ula_resources/chart_weight_small.png" alt="Wykres wagi">
+                                    </div>
+                                </div>
+
+                                <div class="div3 slides-div" id="slide-1-3">
+                                    <div class="chart_img_div">
+                                        <img class="big" src="szczegoly_ula_resources/chart_humidity.png" alt="Wykres wilgotności">
+                                        <img class="medium" src="szczegoly_ula_resources/chart_humidity_medium.png" alt="Wykres wilgotności">
+                                        <img class="small" src="szczegoly_ula_resources/chart_humidity_small.png" alt="Wykres wilgotności">
+                                    </div>
+                                </div>
+
+                                <div class="div4 slides-div" id="slide-1-4">
+                                    <div class="chart_img_div">
+                                        <img class="big" src="szczegoly_ula_resources/chart_movement.png" alt="Wykres ruchu przy wylotku">
+                                        <img class="medium" src="szczegoly_ula_resources/chart_movement_medium.png" alt="Wykres ruchu przy wylotku">
+                                        <img class="small" src="szczegoly_ula_resources/chart_movement_small.png" alt="Wykres ruchu przy wylotku">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="controls">
+                            <span class="arrow arrow-left" onclick="zmienSlajd(-1)"></span>
+                            <div class="dot-div" id="dot-div-1">
+                                <span class="dot" onclick="ustawAktualnySlajd(1)"></span>
+                                <span class="dot" onclick="ustawAktualnySlajd(2)"></span>
+                                <span class="dot" onclick="ustawAktualnySlajd(3)"></span>
+                                <span class="dot" onclick="ustawAktualnySlajd(4)"></span>
+                            </div>
+                            <span class="arrow arrow-right" onclick="zmienSlajd(1)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="back">Powrót do strony głównej</button>
+    </main>
+
+    <script src="szczegoly_ula_resources/slides_dot.js"></script>
+</body>
+
+</html>
