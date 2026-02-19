@@ -1,4 +1,4 @@
-# 📘 Studia – PII - Projektowanie Interfejsów Internetowych
+# 📘 Studia – PII – Projektowanie Interfejsów Internetowych
 
 Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Projektowanie Interfejsów Internetowych**, realizowanego na Uniwersytecie Rzeszowskim podczas piątego (5) semestru studiów inżynierskich na kierunku Informatyka.  
 
